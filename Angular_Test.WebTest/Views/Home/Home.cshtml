@@ -1,0 +1,37 @@
+﻿@model Angular_Test.WebTest.Models.Student
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+<h2>Student</h2>
+<hr />
+<table style="width:40%">
+    <tr>
+        <th>
+            Name
+        </th>
+        <td>@Model.Name</td>
+    </tr>
+    <tr>
+        <th>
+            SurName
+        </th>
+        <td>@Model.SurName</td>
+    </tr>
+    <tr>
+        <th>
+            Address
+        </th>
+        <td>@Model.Address</td>
+    </tr>
+    <tr>
+        <th>
+            Mobile
+        </th>
+        <td>@Model.Mobile</td>
+    </tr>
+</table>
+
+@*@section scripts{
+    @Scripts.Render("")
+}*@
